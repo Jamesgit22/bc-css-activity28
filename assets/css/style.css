@@ -1,0 +1,42 @@
+:root {
+    --outer-space: #33393f;
+    --bright-turquoise: #2aefcb;
+    --gin: #e0eae4;
+    --heliotrope: #e866ec;
+  }
+
+  ::selection {
+    background-color: var(--bright-turquoise);
+    color: var(--outer-space);
+  }
+
+  /* <pre class="code-block">
+            <code>.row {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              }
+          </code>
+        </pre> */
+
+* {
+    background-color: var(--outer-space);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: var(--heliotrope);
+}
+
+header p {
+    color: var(--gin);
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-around;
+}
